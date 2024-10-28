@@ -17,6 +17,7 @@ nav div:hover{
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
+    margin-top: 50px;
   }
   
   #user td, #user th {
@@ -34,4 +35,11 @@ nav div:hover{
     text-align: left;
     background-color: #04AA6D;
     color: white;
+  }
+
+  .login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
